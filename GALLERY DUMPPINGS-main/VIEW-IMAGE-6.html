@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Image 6</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background: #1a1a1a;
+      font-family: Tahoma, sans-serif;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      padding: 20px;
+    }
+
+    .image-container {
+      max-width: 60%;
+      max-height: 50vh;
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 50px rgba(0, 0, 0, 0.8);
+    }
+
+    .image-container img {
+      width: 100%;
+      height: auto;
+      border-radius: 6px;
+    }
+
+    .button-container {
+      margin-top: 30px;
+      text-align: center;
+    }
+
+    .exit-button {
+      background-color: #5f6caf;
+      color: white;
+      padding: 12px 30px;
+      border: none;
+      border-radius: 25px;
+      font-size: 11pt;
+      cursor: pointer;
+      transition: background-color 0.3s ease, transform 0.3s ease;
+    }
+
+    .exit-button:hover {
+      background-color: #7b8ab8;
+      transform: translateY(-2px);
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="image-container">
+    <img src="../../GALLERY DUMPPINGS/image6.jpg" alt="Image 6">
+  </div>
+
+  <div class="button-container">
+    <a href="PHOTO GALLERY.html">
+      <button class="exit-button">← Back to Gallery</button>
+    </a>
+  </div>
+
+</body>
+</html>
